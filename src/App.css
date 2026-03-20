@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 800px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  color: white;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #00c6ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0072ff;
+}
+
+/* OUTPUT SCROLL FIX */
+.output {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+/* Custom Scrollbar (Right side clean) */
+.output::-webkit-scrollbar {
+  width: 6px;
+}
+
+.output::-webkit-scrollbar-thumb {
+  background: #00c6ff;
+  border-radius: 10px;
+}
+
+/* CARD */
+.qa-card {
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* QUESTION → BOLD */
+.question {
+  font-size: 17px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+/* ANSWER → NORMAL */
+.answer {
+  font-size: 14px;
+  font-weight: normal;
+  color: #e0e0e0;
+  line-height: 1.5;
+}
